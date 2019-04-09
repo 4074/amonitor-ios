@@ -1,0 +1,11 @@
+framework module Bless {
+  umbrella header "Bless.h"
+
+  export *
+  module * { export * }
+}
+
+module Bless.Swift {
+    header "Bless-Swift.h"
+    requires objc
+}
